@@ -6,8 +6,10 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.blaxtem.polo.interactivestory.R;
+import com.blaxtem.polo.interactivestory.model.Page;
 
 public class StoryActivity extends Activity {
+
 
     public static final String TAG = StoryActivity.class.getSimpleName();
 
@@ -23,6 +25,8 @@ public class StoryActivity extends Activity {
             name = "Friend";
         }
         Toast.makeText(this,name,Toast.LENGTH_LONG).show();
+
+
 
     }
 }
