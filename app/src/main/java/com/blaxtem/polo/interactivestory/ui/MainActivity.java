@@ -41,4 +41,11 @@ public class MainActivity extends Activity {
         intent.putExtra(getString(R.string.key_name),name);
         startActivity(intent);
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        //Para dejar el nombre en blanco cuando vuelves a empezar el juego
+        //mNameField.setText("");
+    }
 }
